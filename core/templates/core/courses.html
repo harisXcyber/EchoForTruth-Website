@@ -1,0 +1,129 @@
+{% extends 'core/layout.html' %}
+{% block title %}Courses | Islamic Learning Hub{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gradient-to-br from-emerald-50 to-teal-100 py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-4xl mx-auto">
+    <!-- Header Section with Animation -->
+    <div class="text-center mb-12 transform transition duration-1000 hover:scale-105">
+      <h1 class="text-4xl md:text-5xl font-bold text-emerald-800 mb-4 relative inline-block">
+        <span class="absolute -left-8 top-0 text-5xl animate-pulse">📚</span>
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 to-teal-500">
+          Courses Coming Soon!
+        </span>
+        <span class="absolute -right-8 top-0 text-5xl animate-pulse">📚</span>
+      </h1>
+      <div class="h-1 w-32 bg-gradient-to-r from-emerald-500 to-teal-400 mx-auto rounded-full mb-6 animate-pulse"></div>
+    </div>
+
+    <!-- Main Content Card -->
+    <div class="bg-white rounded-xl shadow-xl p-8 mb-10 transform transition duration-500 hover:shadow-2xl border-t-4 border-emerald-500">
+      <p class="text-lg text-gray-700 leading-relaxed mb-8">
+        We're crafting a series of <span class="font-semibold text-emerald-600">short, powerful, and spiritually uplifting courses</span> 
+        to help you deepen your understanding of Islam and navigate current realities with wisdom and knowledge. Our courses are designed to fit into your busy life while maximizing your spiritual growth and understanding.
+      </p>
+
+      <!-- Features Grid -->
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <!-- Feature 1 -->
+        <div class="bg-emerald-50 p-6 rounded-lg border border-emerald-200 transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <div class="flex items-center mb-3">
+            <span class="text-3xl mr-3 animate-bounce">⏳</span>
+            <h3 class="font-bold text-emerald-800 text-lg">Bite-sized Learning</h3>
+          </div>
+          <p class="text-gray-600">Short-form video-based lessons designed for today's fast-paced world. Learn at your own pace with focused content that respects your time.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-teal-50 p-6 rounded-lg border border-teal-200 transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <div class="flex items-center mb-3">
+            <span class="text-3xl mr-3 animate-pulse">🤖</span>
+            <h3 class="font-bold text-teal-800 text-lg">AI-Powered Reflections</h3>
+          </div>
+          <p class="text-gray-600">Personalized reflections and thought-provoking questions that adapt to your learning journey, helping you internalize the knowledge.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-emerald-50 p-6 rounded-lg border border-emerald-200 transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <div class="flex items-center mb-3">
+            <span class="text-3xl mr-3 animate-pulse">🕋</span>
+            <h3 class="font-bold text-emerald-800 text-lg">Authentic Revival</h3>
+          </div>
+          <p class="text-gray-600">Deep-dive into Hadith and Qur'an-based themes that bring timeless wisdom to contemporary challenges, reviving hearts and minds.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="bg-teal-50 p-6 rounded-lg border border-teal-200 transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+          <div class="flex items-center mb-3">
+            <span class="text-3xl mr-3 animate-spin">✊</span>
+            <h3 class="font-bold text-teal-800 text-lg">Truth & Justice Focus</h3>
+          </div>
+          <p class="text-gray-600">Courses that support the cause of truth & justice, addressing issues like Palestine and beyond from an Islamic perspective.</p>
+        </div>
+      </div>
+
+      <!-- Progress Indicator -->
+      <div class="mb-10">
+        <h3 class="text-lg font-semibold text-gray-700 mb-3">Our Progress:</h3>
+        <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
+          <div class="bg-gradient-to-r from-emerald-500 to-teal-400 h-4 rounded-full w-3/4 animate-pulse"></div>
+        </div>
+        <p class="text-right text-sm text-gray-500">75% Complete</p>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="text-center">
+        <p class="text-xl font-medium text-emerald-700 mb-6 animate-pulse">
+          Stay tuned and get ready for a transformative learning experience!
+        </p>
+        
+        <!-- Email Notification Form -->
+        <div class="bg-emerald-100 rounded-lg p-6 mb-6 max-w-md mx-auto">
+          <h4 class="font-bold text-emerald-800 mb-3">Get Notified When We Launch</h4>
+          <div class="flex">
+            <input type="email" placeholder="Your email address" class="flex-grow px-4 py-2 rounded-l-lg border-2 border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+            <button class="bg-gradient-to-r from-emerald-600 to-teal-500 text-white px-4 py-2 rounded-r-lg hover:from-emerald-700 hover:to-teal-600 transition duration-300">
+              Notify Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Topics Preview -->
+    <div class="mb-12">
+      <h2 class="text-2xl font-bold text-center text-emerald-800 mb-6">Course Topics We're Developing</h2>
+      <div class="flex flex-wrap justify-center gap-3">
+        <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium animate-pulse">Quranic Tafsir</span>
+        <span class="bg-teal-100 text-teal-800 px-4 py-2 rounded-full text-sm font-medium animate-pulse">Islamic History</span>
+        <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium animate-pulse">Contemporary Fiqh</span>
+        <span class="bg-teal-100 text-teal-800 px-4 py-2 rounded-full text-sm font-medium animate-pulse">Spirituality</span>
+        <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium animate-pulse">Global Justice</span>
+        <span class="bg-teal-100 text-teal-800 px-4 py-2 rounded-full text-sm font-medium animate-pulse">Islamic Finance</span>
+      </div>
+    </div>
+
+    <!-- Navigation Links with Animation -->
+    <div class="flex justify-center space-x-6">
+      <a href="{% url 'about' %}" class="group relative inline-flex items-center px-6 py-3 overflow-hidden rounded-lg bg-emerald-600 text-white shadow-md transition-all duration-300 ease-out hover:pl-10 hover:pr-6">
+        <span class="absolute right-0 pr-4 duration-300 ease-out group-hover:translate-x-12">
+          <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-300">
+          <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span class="relative w-full text-center transition-all duration-300 ease-in-out group-hover:translate-x-4">About Us</span>
+      </a>
+      <a href="{% url 'content_list' %}" class="group relative inline-flex items-center px-6 py-3 overflow-hidden rounded-lg bg-teal-600 text-white shadow-md transition-all duration-300 ease-out hover:pl-10 hover:pr-6">
+        <span class="absolute right-0 pr-4 duration-300 ease-out group-hover:translate-x-12">
+          <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-300">
+          <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span class="relative w-full text-center transition-all duration-300 ease-in-out group-hover:translate-x-4">Explore Content</span>
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}
