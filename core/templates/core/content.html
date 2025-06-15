@@ -1,0 +1,78 @@
+{% extends "core/layout.html" %}
+
+{% block content %}
+<div class="min-h-screen bg-gradient-to-br from-purple-900 to-indigo-900 py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto">
+    <!-- Header with animation -->
+    <div class="text-center mb-16 transform transition duration-700 hover:scale-105">
+      <h1 class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-4">
+        My Playlists
+      </h1>
+      <div class="h-1 w-24 mx-auto bg-gradient-to-r from-pink-500 to-indigo-500 rounded-full"></div>
+    </div>
+
+    <!-- Playlist grid with animations -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for playlist in playlists %}
+        <div class="bg-white/10 backdrop-blur-lg rounded-xl overflow-hidden shadow-2xl transition-all duration-300 hover:shadow-indigo-500/50 hover:translate-y-[-8px] border border-indigo-500/30">
+          <div class="p-5">
+            <h2 class="text-2xl font-bold text-white mb-3 truncate hover:text-indigo-300 transition-colors duration-300">
+              {{ playlist.snippet.title }}
+            </h2>
+            
+            <!-- Embedded preview with responsive sizing -->
+            <div class="relative pb-[56.25%] h-0 mb-4 rounded-lg overflow-hidden group">
+              <div class="absolute inset-0 bg-black/50 group-hover:bg-black/20 transition-all duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                <div class="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center animate-pulse">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+              </div>
+              <iframe class="absolute top-0 left-0 w-full h-full rounded-lg transform transition duration-500 group-hover:scale-105"
+                      src="{{ playlist.embed_url }}"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen>
+              </iframe>
+            </div>
+            
+            <!-- View playlist button with hover effects -->
+            <div class="flex justify-center">
+              <a href="{% url 'playlist_detail' slug=playlist.slug %}" 
+                 class="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-full text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-pink-500 hover:to-indigo-500 shadow-lg transform transition duration-300 hover:scale-105">
+                <span>Watch Playlist</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Empty state with animation -->
+    {% if not playlists %}
+      <div class="flex flex-col items-center justify-center py-16">
+        <div class="bg-white/10 backdrop-blur-lg rounded-xl p-8 shadow-lg border border-indigo-500/30 max-w-md mx-auto">
+          <div class="text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-indigo-400 mb-4 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15.536a5 5 0 01-.707-7.072m-2.829 9.9a9 9 0 010-12.728" />
+            </svg>
+            <h3 class="text-xl font-bold text-white mb-2">No Playlists Found</h3>
+            <p class="text-indigo-200">Your playlist collection is empty. Playlists you create will appear here.</p>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    
+    <!-- Subtle footer with gradient -->
+    <div class="mt-16 text-center opacity-70 hover:opacity-100 transition-opacity duration-300">
+      <div class="h-px w-24 mx-auto bg-gradient-to-r from-transparent via-indigo-500 to-transparent mb-4"></div>
+      <p class="text-indigo-200 text-sm">Discover and enjoy your favorite playlists</p>
+    </div>
+  </div>
+</div>
+{% endblock %}

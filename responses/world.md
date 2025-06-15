@@ -1,0 +1,29 @@
+# World Status
+
+We Muslims around the world stand united for Palestine, even when our governments don't do enough. This solidarity reflects the concept of ummah (global Muslim community) that transcends national borders. In mosques from Jakarta to Johannesburg, from Istanbul to Islamabad, prayers are offered for our Palestinian brothers and sisters. The Prophet Muhammad ﷺ said: "The believers in their mutual kindness, compassion and sympathy are just like one body. When one limb suffers, the whole body responds to it with wakefulness and fever."
+
+Muslim-majority countries consistently speak up for Palestinian rights at the United Nations and other international forums. The Organization of Islamic Cooperation (OIC), representing 57 member states, has repeatedly condemned Israeli aggression and called for an end to the occupation. Countries like Malaysia, Indonesia, Turkey, and Pakistan have been particularly vocal, implementing policies that refuse normalization with Israel until Palestinian rights are secured.
+
+However, we must acknowledge that many Muslim governments face significant constraints in providing stronger support. Economic dependence on Western powers, internal challenges, and geopolitical pressures limit their ability to take more decisive action. Some Arab regimes have even normalized relations with Israel without securing Palestinian rights – a betrayal of both Islamic principles and the Palestinian cause that their own citizens overwhelmingly oppose.
+
+Despite these governmental limitations, Muslim populations worldwide remain steadfast in their support for Palestine. Massive demonstrations regularly fill the streets of Muslim capitals whenever Israel launches attacks on Gaza or Al-Aqsa Mosque. Islamic charities channel millions in humanitarian aid to Palestinians, and boycott movements against Israeli products gain strong support across the Muslim world.
+
+Western countries, especially America, continue providing Israel with unconditional diplomatic protection, military aid, and economic support. The United States gives Israel approximately $3.8 billion in military assistance annually, making it the largest recipient of US foreign aid. This support enables Israel to maintain its military occupation and expand illegal settlements with impunity. The US has used its veto power at the UN Security Council over 40 times to shield Israel from international accountability.
+
+This Western bias reveals a profound double standard in how international law is applied. While claiming to champion human rights globally, Western powers ignore or excuse Israeli violations of Palestinians' most basic rights. As Allah says in the Quran:
+
+"O you who believe! Be upholders of justice, witnesses for Allah, even though it be against yourselves, or your parents, or your relatives." (Surah An-Nisa 4:135)
+
+The Western failure to uphold equal justice contradicts their own claimed values and exposes the hypocrisy of their human rights discourse. When Palestinian children are killed by Israeli bombs, Western media and politicians offer lukewarm "concerns about civilian casualties" while continuing to supply the weapons used in these attacks. The Prophet Muhammad ﷺ warned: "Beware of the supplication of the oppressed, for there is no screen between it and Allah."
+
+However, there are encouraging signs of change in global opinion. People of conscience worldwide, including growing numbers of Jews and even Israelis, now recognize and speak out against the injustice Palestinians face. The Boycott, Divestment and Sanctions (BDS) movement has gained significant momentum globally, applying non-violent pressure on Israel to comply with international law. University students, labor unions, churches, and other civil society groups increasingly support Palestinian rights.
+
+Digital activism has transformed how the Palestinian story reaches global audiences. Social media allows Palestinians to document and share their reality directly, bypassing traditional media filters. When Israeli forces attack worshippers at Al-Aqsa or bomb residential buildings in Gaza, the world sees this footage in real-time. These images stir the conscience of people everywhere, regardless of faith, as the universal human sense of justice recognizes oppression when it sees it.
+
+The South African government's genocide case against Israel at the International Court of Justice marks a significant shift in global accountability efforts. As a nation that overcame its own apartheid system, South Africa's moral standing lends powerful legitimacy to Palestinian claims about the systematic nature of their oppression. Their legal action reflects growing international recognition that Israel's treatment of Palestinians constitutes apartheid – a crime against humanity under international law.
+
+For us Muslims, this growing global awareness confirms what our faith teaches – that justice will ultimately prevail over oppression. Allah reassures us in the Quran:
+
+"Allah has promised those among you who believe and do righteous deeds that He will certainly grant them succession in the land, as He granted it to those before them." (Surah An-Nur 24:55)
+
+The Palestinian cause represents a test not just for Muslims but for humanity's commitment to universal principles of justice. As more people worldwide recognize the fundamental injustice of occupation and dispossession, international support for Palestinian rights continues to grow. This global solidarity movement shows that Palestine is not just a Muslim issue but a human rights issue that resonates with the universal values of justice, freedom, and dignity that our Islamic faith has always promoted.
